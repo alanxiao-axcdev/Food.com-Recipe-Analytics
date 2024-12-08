@@ -114,7 +114,7 @@ project at the end of this page.
 ##### Ingredients vs Rating
 
 <iframe
-  src="src/ings_vs_rat.htm"
+  src="src/ing_vs_rat.htm"
   width="800"
   height="600"
   frameborder="0"
