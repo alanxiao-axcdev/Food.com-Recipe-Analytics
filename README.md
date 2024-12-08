@@ -49,7 +49,7 @@ Let's take a closer look at each column.
   width="800"
   height="600"
   frameborder="0"
-/>
+></iframe>
 
 As you can see the majority of recipes took 2 hours to make, with the majority of them taking between 20 and 60 minutes.
 There is a very long tail of the longer recipes, but that is to be expected for things such as stock, stews, and other slow
@@ -62,7 +62,7 @@ cook recipes would still be considered by our 10 hours margin.
   width="800"
   height="600"
   frameborder="0"
-/>
+></iframe>
 
 Most recipes took between 6 and 11 ingredients, with the max stretching out to 30 ingredients. These outliers consisted
 mainly of recipes with lots of spices where the author decided to list out every single spice, for example the recipe for
@@ -75,7 +75,7 @@ north african meatballs (boulettes).
   width="800"
   height="600"
   frameborder="0"
-/>
+></iframe>
 
 Most recipes took less than 21 steps to complete, with the upper bound being 80. Upon closer inspection it seems that
 the outliers are mostly data errors. 
@@ -87,14 +87,14 @@ the outliers are mostly data errors.
   width="800"
   height="600"
   frameborder="0"
-/>
+></iframe>
 
 <iframe
   src="src/rating_dist_bar.htm"
   width="800"
   height="600"
   frameborder="0"
-/>
+></iframe>
 
 Perhaps the most important data point, the rating that we're trying to predict. There's an overwhelming favorite towards
 a rating of 5, even when we consider that only recipes with 5+ reviews were kept. We will discuss how this impacted this 
@@ -109,7 +109,7 @@ project at the end of this page.
   width="800"
   height="600"
   frameborder="0"
-/>
+></iframe>
 
 ##### Ingredients vs Rating
 
@@ -118,7 +118,7 @@ project at the end of this page.
   width="800"
   height="600"
   frameborder="0"
-/>
+></iframe>
 
 ##### Steps vs Rating
 
@@ -127,7 +127,7 @@ project at the end of this page.
   width="800"
   height="600"
   frameborder="0"
-/>
+></iframe>
 
 These scatterplots don't show a clear correlation between any of the components clearly, but I believed that I could still
 have done a prediction based on a more complex calculation of recipe complexity.
